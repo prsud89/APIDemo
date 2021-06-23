@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-23T12:33:33.423Z",
+        "line": 4,
+        "name": "Validate API details",
+        "description": "",
+        "id": "trigger-the-api-and-validate-response;validate-api-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3929000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I trigger the get API",
+            "match": {
+              "location": "com.test.Steps.TestStep.i_trigger_the_get_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify API statuscode",
+            "match": {
+              "location": "com.test.Steps.TestStep.i_verify_api_statuscode()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 636000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify title",
+            "match": {
+              "location": "com.test.Steps.TestStep.i_verify_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestCase_01"
+          },
+          {
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Trigger the API and validate response",
+    "description": "",
+    "id": "trigger-the-api-and-validate-response",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Test.feature",
+    "tags": []
+  }
+]
