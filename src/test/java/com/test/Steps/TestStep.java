@@ -52,7 +52,7 @@ public class TestStep {
 
     }
     @Then("I verify title")
-    public void i_verify_title() throws FileNotFoundException {
+    public void i_verify_title() throws Throwable {
         HashMap<String, String> datadetails1 = res1.getBody().jsonPath().get("data[0]");
         String resposnetitle1= datadetails1.get("title");
         System.out.println("Respose Title"+resposnetitle1);
