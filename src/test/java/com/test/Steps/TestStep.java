@@ -55,7 +55,7 @@ public class TestStep {
     public void i_verify_title() throws FileNotFoundException {
         HashMap<String, String> datadetails1 = res1.getBody().jsonPath().get("data[0]");
         String resposnetitle1= datadetails1.get("title");
-        System.out.println("restile"+resposnetitle1);
+        System.out.println("Respose Title"+resposnetitle1);
 
     }
 }
